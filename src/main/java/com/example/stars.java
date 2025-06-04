@@ -1,4 +1,4 @@
-package com.Stars;
+package com.stars;
 
 import com.birdbrain.Finch;
 
