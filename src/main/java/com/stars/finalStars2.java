@@ -2,7 +2,7 @@ package com.stars;
 
 import com.birdbrain.Finch;
 
-public class stars2 {
+public class finalStars2 {
     public static void main(String[] args) {
         Finch stars = new Finch();
         stars.setMove("F", 50, 50);
@@ -42,7 +42,7 @@ public class stars2 {
         stars.setTurn("L", 90, 50);
         stars.setMove("F", 15, 90);
 
-        // stars.stop();
-        // stars.disconnect();
+         stars.stop();
+        stars.disconnect();
     }
 }
